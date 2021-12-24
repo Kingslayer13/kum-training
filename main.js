@@ -7,3 +7,5 @@ const averageFunc = (x, y, z) => {
 const result = averageFunc(1, 2, 4);
 console.log(result);
 
+const result2 = averageFunc(2, 34, 33);
+console.log(result2);

@@ -9,3 +9,7 @@ console.log(result);
 
 const result2 = averageFunc(2, 34, 33);
 console.log(result2);
+
+const sum = (x, y) => {
+    return x + y;
+}

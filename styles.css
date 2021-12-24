@@ -1,0 +1,62 @@
+
+body {
+    font-family: sans-serif;
+    background-image: url(http://3.bp.blogspot.com/-60zUkvZPtIY/VaPDvl2gtUI/AAAAAAAAFW4/1dCbBSvgx8o/s1600/vintage-pattern-24.png);
+}
+
+.main{
+    background-color: #faebd7c9;
+    border-radius: 10px;
+    padding: 10px 20px 20px 20px;
+}
+
+.article{
+    position: relative;
+    background-color: blanchedalmond;
+    border: 1px solid darkgreen;
+    padding: 10px 20px;
+    width: 28%;
+    margin-bottom: 10px
+}
+
+.article > p{
+    font-size: 12px;
+}
+
+.article-image{
+    border-radius: 20px;
+}
+
+.article-title{
+    font-size: 26px;
+}
+
+.special{
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.save-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+    transition: all 0.5s ease-in;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+}
+
+.save-btn:hover{
+    background-color: darkorange;
+    width: 150px;
+    box-shadow: -3px 5px 8px 0 #0000003b;
+}
